@@ -11,7 +11,7 @@ import lombok.*;
 public class GameCharacter {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //@GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String name;
